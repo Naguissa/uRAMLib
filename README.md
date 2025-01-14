@@ -5,7 +5,7 @@
 
 I2C RAM/FRAM/MRAM library. Derived from uEEPROMLib https://github.com/Naguissa/uEEPROMLib , it maintains same operation principle.
 
-This library controls any I2C RAM. It's based on FM24CL16 FRAM but should work with any.
+This library controls any I2C RAM. It's based on [FM24CL16 FRAM](https://www.foroelectro.net/arduino/link/I2C-FRAM) but should work with any.
 
 *Note: On ATTiny, you need TnyWireM library in order to compile. It's available on Library manager.
 

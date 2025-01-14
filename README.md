@@ -12,10 +12,11 @@ This library controls any I2C RAM. It's based on FM24CL16 FRAM but should work w
 
 ## uEEPROMLib vs uRAMLib comparation
 
-uEEPROMLib   | uRAMLib          | Item
-    6ms      | 1ms (may be 0)   | Internal delay in I2C operation.
-    Paged    |   Banked         | Reading / Writing operation mode.
-Direct (2by) | Base + remaining | Adressing (2 bytes adress).
+Item | uEEPROMLib | uRAMLib
+--- | --- | ---
+Internal delay in I2C operation | 6ms | 1ms (may be 0)
+Reading / Writing operation mode | Paged | Banked
+Adressing | Direct (2 bytes) | Base + remaining (1+1 bytes)
   
 
 
